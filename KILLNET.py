@@ -117,11 +117,6 @@ def send():
                 a = s.get(url, headers=headers)
                 # print(a)
                 print(f'get...    {a}')
-                aa = s.post(url, headers=headers, )
-                print(aa) ## aa - вывод код запроса. Если 200 - прокси работают. 400 какое-то - не работают. С а тоже самое.s
-                print(f'post...     {aa}')
-                requests.head(url, headers=headers)
-                print("head...")
 
 if __name__ == '__main__':
         downloadproxy()
